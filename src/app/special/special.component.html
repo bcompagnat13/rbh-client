@@ -1,0 +1,14 @@
+<div class="special bg-dark">
+  <div class="specialContent">
+    <h2>{{special.title | uppercase}} </h2>
+    <img [src]="special.picture" class="img-fluid" >
+    <p>{{special.description}}</p>
+  </div>
+  <div class="specialFooter bottom">
+    <h2 class="float-left">${{special.price}}</h2>
+    <button class="btn btn-primary float-right" role="button" (click)="buttonClicked()">
+      {{buttonText}}
+    </button>
+  </div>
+</div>
+

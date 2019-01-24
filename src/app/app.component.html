@@ -1,0 +1,22 @@
+<app-navigation></app-navigation>
+
+<main role="main">
+  <app-jumbotron title="Welcome to our store" description="Browse our collection of 20,000 plates"></app-jumbotron>
+
+  <div class="container mainBlock">
+    <div class="row" >
+      <app-special [special]="special" *ngFor="let special of specials | async"
+                         buttonText="Add to cart" class="col-md-4" appHighlight
+                          (buttonClick)="addToCart($event)" >
+      </app-special>
+    </div>
+  </div>
+</main>
+
+<app-popup-window [isOpen]="showPopup" title="Item added to cart" (onClose)="showPopup = false" >
+  Thanks for shopping with us!
+</app-popup-window>
+
+<footer class="fixed-bottom">
+  <p>&copy; Resto-Bar Hélène 2019</p>
+</footer>

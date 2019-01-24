@@ -1,0 +1,44 @@
+.sale {
+  width: 40px;
+}
+
+
+.special {
+  height: 100%;
+  opacity: 1;
+  padding:15px;
+  border-radius: 3%;
+  color:  rgba(255,255,255,.5);
+  text-align: center;
+}
+
+.specialContent {
+  height: calc(100% - 40px);
+}
+
+
+.specialFooter {
+  height : 40px;
+  bottom: 0;
+}
+
+.specialFooter button p {
+  position: absolute;
+  bottom: 0;
+}
+
+.special button {
+  margin-bottom: 15px;
+  background-color: #680717;
+  border-color: #680717;
+
+  text-decoration-color: rgba(255,255,255,.5);
+}
+
+.special button {
+  color: rgba(255,255,255,.5)!important;
+}
+
+.special button:hover {
+  color: grey;
+}

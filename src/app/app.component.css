@@ -1,0 +1,25 @@
+.mainBlock {
+  margin-top: 130px;
+  margin-bottom: 30px;
+
+  background-color: black;
+}
+
+main {
+  height: calc(100% - 155px);
+  background-color: black;
+}
+
+footer {
+  margin-top: 15px;
+  height: 25px;
+  text-align: center;
+  color:  rgba(255,255,255,.5);
+  background-color: black;
+  opacity: 1;
+}
+
+app-special {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
