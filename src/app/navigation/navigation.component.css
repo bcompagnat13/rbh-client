@@ -1,0 +1,20 @@
+.navbar {
+  background-color: black!important;
+}
+
+.navbar-brand img {
+  height: 100px;
+  position: absolute;
+  left: 15px;
+  top: -20px;
+}
+
+.fixed-top {
+  top: 35px;
+  z-index: 1031;
+}
+
+
+nav div {
+  margin-left: 200px;
+}
