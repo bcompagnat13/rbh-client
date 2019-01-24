@@ -21,7 +21,6 @@ import {SpecialComponent} from './special/special.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CartService } from './cart.service';
 import {CurrencySwitcherComponent} from './currency-switcher/currency-switcher.component';
-import {EnumUtilsModule} from '../../projects/enum-utils/src/lib/enum-utils.module';
 import { NavigationComponent } from './navigation/navigation.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 //import { ReactiveFormsModule } from '@angular/forms';
@@ -38,7 +37,6 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
   ],
   imports: [
     BrowserModule,
-    EnumUtilsModule,
     FormsModule,
     HttpClientModule,
     RouterModule , routing
